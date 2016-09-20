@@ -1,7 +1,9 @@
+// == missing header
 import java.util.Scanner;
 public class P26{
   public static void main(String args[]){
     Scanner dig = new Scanner(System.in);
+    // == tabs!!
 	System.out.println("Enter a number from 0-1000");
 	int in = dig.nextInt();
 	int ind1,ind2,ind3,realind2;
