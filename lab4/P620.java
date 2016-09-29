@@ -1,9 +1,9 @@
 /**
-*File: P68
+*File: P620
 *author: Brian Powers
 *course: CMPT 220
 *assignment: Lab 4
-*due days: September 28, 2016
+*due days: September 29, 2016
 *version: "1.8.0_101"
 
 *This program counts the length of a string using methods
@@ -14,10 +14,11 @@ public class P620 {
   public static void main(String[] args) {
     
     Scanner input = new Scanner(System.in);
-	String B = input.nextString();
-	System.out.println(countletters(B));
+	System.out.println("Enter a string:");
+	String B = input.nextLine();
+	System.out.println(CountLetters(B));
   }
-  public static int countLetters(String B) {
-    return String.length(String B);
+  public static int CountLetters(String B) {
+    return B.length();
   }
 }
