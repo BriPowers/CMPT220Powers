@@ -31,8 +31,9 @@ public class driver_proj1 {
 	  i++;
 	}
 	double[] cResult = convolve(vFirst, vSecond);
+	
 	for(i = 0; i < (vFirst.length + vSecond.length) - 1;i++){
-	System.out.println(cResult[i]);
+	  System.out.print(cResult[i] + " ");
     }
   }
   public static double[] convolve(double[] vFirst,double[] vSecond){
