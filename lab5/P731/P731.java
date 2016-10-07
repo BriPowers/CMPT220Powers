@@ -17,13 +17,13 @@ public class P731{
 	int size = input.nextInt();
 	System.out.println("enter numbers in order:");
 	int[] Mylist1 = new int[size];
-	for (int i = 0; i < 11; i++){
+	for (int i = 0; i < size; i++){
 	  Mylist1[i] = input.nextInt();
 	}
 	
 	System.out.println("enter numbers in order:");
 	int[] Mylist2 = new int[size];
-	for (int i = 0; i < 11; i++){
+	for (int i = 0; i < size; i++){
 	  Mylist2[i] = input.nextInt();
 	}
 	int[] mergedList = merge(Mylist1, Mylist2);
