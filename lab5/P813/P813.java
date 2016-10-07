@@ -21,7 +21,8 @@ public class P813{
 	   System.out.println(b[row][col]);
 	  }
 	}
-    int rr=cr=0;
+    int rr = 0;
+	int cr = 0;
 	int maxVal = 0;
     for (int row = 0; row<20;row++){
 	  for(int col = 0; col<10; col++){
@@ -34,6 +35,6 @@ public class P813{
 	  }
 	}
     System.out.println("The max value is: " + maxVal);
-    System.out.println("the row location is row: " + rr + "The column location is column: " + cr);	
+    System.out.println("the row location is row: " + rr + " The column location is column: " + cr);	
   }
 }
